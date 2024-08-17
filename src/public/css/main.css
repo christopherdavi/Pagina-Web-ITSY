@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Carrousel start */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+/* Carrousel end */
+
+/* Grid-container start*/
+.grid{
+    margin-top: 10xp;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-inti{
+    padding-right: 2%;
+    padding-left:2%;
+    display:grid;
+    grid-template-columns: 60% 40%;
+}
+.grid-inti-60{
+    padding-right: 2%;
+    padding-left:2%;
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+.grid-inti-50{
+    padding-right: 7%;
+    padding-left:7%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-content-50{
+    padding-right: 7%;
+    padding-left:7%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-individual{
+    margin-top: 10xp;
+    display:grid;
+    grid-template-columns: 100%;
+}
+.adicional-grid{
+    justify-content:center; display:grid;
+}
+.adicional-grid span{
+    font-weight: 700;
+    text-align: center;
+}
+.adicionales-grid{
+    justify-content:center; display:flex;
+}
+.grid-colm{
+    justify-content:center; display:flex;
+}
+.content-img1{
+    height: auto;
+    width: 1200px;
+}
+.content-img2{
+    height: auto;
+    width:1000px;
+}
+/* width="560" height="315" */
+@media (min-width: 1800px) {
+    .adicionales-grid iframe{
+        width:670px;
+        height:425px;
+    }
+    .grid-colm iframe{
+        width:670px;
+        height:425px;
+    }
+    .espacio{
+    margin-left: 3%;
+    }
+    .grid-content-50{
+        grid-column-gap: 3%;
+    }
+}
+@media (min-width: 1300px){
+    .grid-colm iframe{
+        width:660px;
+        height:415px;
+    }
+    .espacio{
+        margin-left: 3%;
+    }
+    .grid-content-50{
+        grid-column-gap: 3%;
+    }
+}
+@media (min-width: 1202px) and (max-width: 1299px) {
+    .grid-colm iframe{
+        width:660px;
+        height:415px;
+    }
+    .espacio{
+        margin-left: 3%;
+    }
+    .grid-content-50{
+        grid-column-gap: 5%;
+    }
+    .adicional-grid img{
+        width:470px;
+    }
+    .content-img1{
+        width: 900px;
+    }
+    .content-img2{
+        width: 900px;
+    }
+}
+@media (max-width:1201px) {
+    .grid{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+
+    .grid-inti{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .grid-inti-60{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .grid-inti-50{
+        display:grid;
+        grid-template-columns: 100%;
+        padding-right: 3%;
+        padding-left:3%;
+    }
+    .grid-content-50{
+        display:grid;
+        grid-template-columns: 100%;
+        padding-right: 3%;
+        padding-left:3%;
+    }
+    .adicionales-grid{
+        padding-bottom: 35px;
+    }
+    .adicional-grid img{
+        width:460px;
+    }
+    .content-img1{
+        width: 900px;
+    }
+    .content-img2{
+        width: 810px;
+    }
+}
+@media (min-width: 810px) and (max-width:920px){
+    .content-img1{
+        width: 760px;
+    }
+    .content-img2{
+        width: 700px;
+    }
+}
+@media screen and (min-width:671px) and (max-width:809px){
+    .content-img1{
+        width: 650px;
+    }
+    .content-img2{
+        width: 650px;
+    }
+}
+
+@media (min-width:600px) and (max-width:670px){
+    .content-img1{
+        width: 575px;
+    }
+    .content-img2{
+        width: 575px;
+    }
+}
+
+@media (max-width:599px){
+    .adicionales-grid iframe{
+        width:460px;
+        height:215px;
+    }
+    .content-img1{
+        width: 471px;
+    }
+    .content-img2{
+        width: 471px;
+    }
+}
+
+@media (max-width:500px){
+    .adicionales-grid iframe{
+        width:360px;
+        height:200px;
+    }
+    .adicional-grid img{
+        width:420px;
+    }
+    .content-img1{
+        width: 401px;
+    }
+    .content-img2{
+        width: 401px;
+    }
+}
+@media (max-width:499px){
+    .adicional-grid img{
+        width:390px;
+    }
+    .content-img1{
+        width: 401px;
+    }
+    .content-img2{
+        width: 401px;
+    }
+}
+@media (max-width:400px){
+    .footer-content{
+        padding: 40px 15px 1021px;
+    }
+    .content-img1{
+        width: 300px;
+    }
+    .content-img2{
+        width: 300px;
+    }
+}
+@media (min-width:333px) and (max-width:399px) {
+    .adicional-grid img{
+        width:320px;
+    }
+    .footer-content{
+        padding: 40px 15px 1021px;
+    }
+    .content-img1{
+        width: 300px;
+    }
+    .content-img2{
+        width: 300px;
+    }
+}
+
+/* inti-yavirac */
+.imagen-inti-yavirac{
+    width: 100%;
+    height:53vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/banner-inti-yavirac.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow:hidden;
+    background-position-x: center;
+}
+.imagen-mision-vision{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom:10%;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/docentes.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+.imagen-ingles{
+    width: 100%;
+    height:44vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/capacitacion-continua_1.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+    background-position-x: initial;
+}
+.imagen-educacion-superior{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom:10%;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/educacionpublica.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+.imagen-formacion-tecnica{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom:10%;
+    height:54vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/formaciontecnica.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+.parrafo-inti-yavirac{
+    padding-bottom: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.parrafo-inti-tecnica{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.parrafos-inti{
+  text-align: justify;
+}
+.parrafo-centrado{
+    text-align: center;
+  }
+.imagen-section{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom:10%;
+    height:25vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/slider/instalacion1-1.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+.imagen-section2{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom:10%;
+    height:25vh;
+    background:linear-gradient(rgba(119, 80, 8, 0.548),rgba(245, 107, 27, 0.5)),url(../img/despues-1.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+.center{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: xx-large;
+}
+@media (min-width:1899px) and (max-width:2290px){
+    .imagen-inti-yavirac{
+        height:63vh;
+    }
+}
+
+@media (min-width:1501px){
+    .center{
+        text-align: center;
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: xxx-large;
+    }
+}
+
+/* Contenido de instituciones */
+.content{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+.grid-content{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display:grid;
+    grid-template-columns: 100%;
+}
+.img-content{
+    margin-right: auto;
+    margin-left: auto;
+    display:grid;
+    padding-bottom:2%;
+}
+
+/*Rendición de cuentas*/
+.img-rendicion{
+    margin-top:20px;
+    width: 430px;
+    height:auto;
+    box-shadow: 2px 2px 5px #999;
+}
